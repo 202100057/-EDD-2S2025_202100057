@@ -1,0 +1,52 @@
+object FormContactos: TFormContactos
+  Left = 383
+  Height = 222
+  Top = 165
+  Width = 463
+  Caption = 'Contactos'
+  ClientHeight = 222
+  ClientWidth = 463
+  DesignTimePPI = 144
+  OnShow = FormShow
+  object edtEmail: TEdit
+    Left = 8
+    Height = 33
+    Top = 8
+    Width = 232
+    TabOrder = 0
+  end
+  object btnAgregar: TButton
+    Left = 264
+    Height = 38
+    Top = 8
+    Width = 113
+    Caption = 'Agregar'
+    TabOrder = 1
+    OnClick = btnAgregarClick
+  end
+  object btnVer: TButton
+    Left = 8
+    Height = 38
+    Top = 160
+    Width = 113
+    Caption = 'Ver actual'
+    TabOrder = 2
+    OnClick = btnVerClick
+  end
+  object btnSig: TButton
+    Left = 128
+    Height = 38
+    Top = 160
+    Width = 113
+    Caption = 'Siguiente'
+    TabOrder = 3
+    OnClick = btnSigClick
+  end
+  object lblInfo: TLabel
+    Left = 18
+    Height = 25
+    Top = 112
+    Width = 7
+    Caption = '-'
+  end
+end

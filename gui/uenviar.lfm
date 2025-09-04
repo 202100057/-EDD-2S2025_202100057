@@ -1,0 +1,62 @@
+object FormEnviar: TFormEnviar
+  Left = 383
+  Height = 370
+  Top = 165
+  Width = 340
+  Caption = 'FormEnviar'
+  ClientHeight = 370
+  ClientWidth = 340
+  DesignTimePPI = 144
+  OnShow = FormShow
+  object edtPara: TEdit
+    Left = 88
+    Height = 33
+    Top = 8
+    Width = 210
+    TabOrder = 0
+  end
+  object edtAsunto: TEdit
+    Left = 90
+    Height = 33
+    Top = 56
+    Width = 208
+    TabOrder = 1
+  end
+  object memMensaje: TMemo
+    Left = 16
+    Height = 184
+    Top = 112
+    Width = 288
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 25
+    Top = 10
+    Width = 37
+    Caption = 'Para:'
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 25
+    Top = 64
+    Width = 61
+    Caption = 'Asunto:'
+  end
+  object btnEnviar: TButton
+    Left = 185
+    Height = 38
+    Top = 304
+    Width = 113
+    Caption = 'Enviar'
+    TabOrder = 3
+    OnClick = btnEnviarClick
+  end
+  object lblMsg: TLabel
+    Left = 16
+    Height = 25
+    Top = 317
+    Width = 37
+    Caption = 'Listo'
+  end
+end

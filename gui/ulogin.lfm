@@ -1,0 +1,64 @@
+object FormLogin: TFormLogin
+  Left = 377
+  Height = 306
+  Top = 163
+  Width = 391
+  Caption = 'Form1'
+  ClientHeight = 306
+  ClientWidth = 391
+  DesignTimePPI = 144
+  OnCreate = FormCreate
+  object edtEmail: TEdit
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Side = asrCenter
+    AnchorSideRight.Side = asrCenter
+    AnchorSideBottom.Side = asrCenter
+    Left = 101
+    Height = 33
+    Top = 64
+    Width = 176
+    TabOrder = 0
+    Text = 'root@edd.com'
+  end
+  object edtPass: TEdit
+    Left = 101
+    Height = 33
+    Top = 120
+    Width = 176
+    Anchors = []
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 1
+    Text = 'root123'
+  end
+  object btnEntrar: TButton
+    Left = 88
+    Height = 38
+    Top = 176
+    Width = 88
+    Caption = 'Entrar'
+    TabOrder = 2
+    OnClick = btnEntrarClick
+  end
+  object btnCargarJSON: TButton
+    Left = 184
+    Height = 38
+    Top = 176
+    Width = 113
+    Caption = 'Cargar JSON'
+    TabOrder = 3
+    OnClick = btnCargarJSONClick
+  end
+  object lblMsg: TLabel
+    Left = 128
+    Height = 25
+    Top = 240
+    Width = 33
+    Caption = 'listo'
+  end
+  object OpenDialog1: TOpenDialog
+    Filter = 'JSON|*.json|Todos|*.*'
+    Left = 360
+    Top = 168
+  end
+end

@@ -1,0 +1,98 @@
+object FormUserMenu: TFormUserMenu
+  Left = 406
+  Height = 516
+  Top = 165
+  Width = 299
+  Caption = 'Menu Usuario'
+  ClientHeight = 516
+  ClientWidth = 299
+  DesignTimePPI = 144
+  object lblHola: TLabel
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 37
+    Caption = 'Hola'
+  end
+  object btnBandeja: TButton
+    Left = 56
+    Height = 38
+    Top = 56
+    Width = 176
+    Caption = 'Bandeja de Entrada'
+    TabOrder = 0
+    OnClick = btnBandejaClick
+  end
+  object btnCerrar: TButton
+    Left = 56
+    Height = 38
+    Top = 432
+    Width = 176
+    Caption = 'Cerrar Sesion'
+    TabOrder = 1
+    OnClick = btnCerrarClick
+  end
+  object btnEnviar: TButton
+    Left = 56
+    Height = 38
+    Top = 104
+    Width = 176
+    Caption = 'Enviar correo'
+    TabOrder = 2
+    OnClick = btnEnviarClick
+  end
+  object btnPapelera: TButton
+    Left = 56
+    Height = 38
+    Top = 152
+    Width = 176
+    Caption = 'Papelera'
+    TabOrder = 3
+    OnClick = btnPapeleraClick
+  end
+  object btnProgramar: TButton
+    Left = 56
+    Height = 38
+    Top = 200
+    Width = 176
+    Caption = 'Programar Correo'
+    TabOrder = 4
+    OnClick = btnProgramarClick
+  end
+  object btnProgramados: TButton
+    Left = 56
+    Height = 38
+    Top = 248
+    Width = 176
+    Caption = 'Correos programados'
+    TabOrder = 5
+    OnClick = btnProgramadosClick
+  end
+  object btnContactos: TButton
+    Left = 56
+    Height = 38
+    Top = 296
+    Width = 176
+    Caption = 'Contactos'
+    TabOrder = 6
+    OnClick = btnContactosClick
+  end
+  object btnPerfil: TButton
+    Left = 56
+    Height = 38
+    Top = 344
+    Width = 176
+    Caption = 'Actualizar Perfil'
+    TabOrder = 7
+    OnClick = btnPerfilClick
+  end
+  object btnReportes: TButton
+    Left = 56
+    Height = 38
+    Top = 392
+    Width = 176
+    Caption = 'Generar Reportes'
+    TabOrder = 8
+    OnClick = btnReportesClick
+  end
+end

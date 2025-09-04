@@ -1,0 +1,56 @@
+object FormInbox: TFormInbox
+  Left = 406
+  Height = 356
+  Top = 165
+  Width = 549
+  Caption = 'Bandeja de entrada'
+  ClientHeight = 356
+  ClientWidth = 549
+  DesignTimePPI = 144
+  OnShow = FormShow
+  object grid: TStringGrid
+    Left = 16
+    Height = 246
+    Top = 88
+    Width = 528
+    Color = clDefault
+    ColCount = 4
+    Options = [goFixedVertLine, goFixedHorzLine, goColSizing, goRowSelect]
+    RowCount = 2
+    TabOrder = 0
+  end
+  object btnOrdenar: TButton
+    Left = 16
+    Height = 38
+    Top = 40
+    Width = 113
+    Caption = 'A-Z'
+    TabOrder = 1
+    OnClick = btnOrdenarClick
+  end
+  object btnLeer: TButton
+    Left = 136
+    Height = 38
+    Top = 40
+    Width = 113
+    Caption = 'Leer'
+    TabOrder = 2
+    OnClick = btnLeerClick
+  end
+  object btnEliminar: TButton
+    Left = 256
+    Height = 38
+    Top = 40
+    Width = 113
+    Caption = 'Eliminar'
+    TabOrder = 3
+    OnClick = btnEliminarClick
+  end
+  object lblCont: TLabel
+    Left = 384
+    Height = 25
+    Top = 40
+    Width = 36
+    Caption = '0 NL'
+  end
+end

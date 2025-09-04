@@ -1,0 +1,19 @@
+# lazarus / fpc build
+lib/
+backup/
+*.o
+*.ppu
+*.or
+*.compiled
+
+# sesiones y temporales
+*.lps
+*.bak
+*.log
+*.tmp
+*~
+
+# salidas de reportes
+*.dot
+*.png
+Root-Reportes/

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="EDDMailApp"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="EDDMailApp.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ulogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLogin"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\backend\ucargajson.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uCargaJson"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\backend\ucontactoslistcircular.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uContactosListCircular"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\backend\ucorreos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uCorreos"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\backend\ucorreosprogramados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uCorreosProgramados"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\backend\umatrizusuarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uMatrizUsuarios"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\backend\upapelera.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uPapelera"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\backend\ureportesdot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uReportesDot"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\backend\uusuarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uUsuarios"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uappstate.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uAppState"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ulogin.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="urootmenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormRootMenu"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uRootMenu"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uusermenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormUserMenu"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uUserMenu"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uinbox.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormInbox"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uInbox"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ucontactos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormContactos"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uContactos"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uenviar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormEnviar"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uEnviar"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="EDDMailApp"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\backend"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

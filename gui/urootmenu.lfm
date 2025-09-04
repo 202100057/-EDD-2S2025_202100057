@@ -1,0 +1,50 @@
+object FormRootMenu: TFormRootMenu
+  Left = 406
+  Height = 377
+  Top = 165
+  Width = 261
+  Caption = 'Root'
+  ClientHeight = 377
+  ClientWidth = 261
+  DesignTimePPI = 144
+  object btnCargaMasiva: TButton
+    Left = 40
+    Height = 44
+    Top = 40
+    Width = 176
+    Caption = 'Carga Masiva'
+    TabOrder = 0
+    OnClick = btnCargaMasivaClick
+  end
+  object btnReporteUsuarios: TButton
+    Left = 40
+    Height = 44
+    Top = 112
+    Width = 177
+    Caption = 'Reporte de Usuarios'
+    TabOrder = 1
+    OnClick = btnRepUsuariosClick
+  end
+  object btnRepRelaciones: TButton
+    Left = 40
+    Height = 46
+    Top = 184
+    Width = 177
+    Caption = 'Reporte de Relaciones'
+    TabOrder = 2
+    OnClick = btnRepRelacionesClick
+  end
+  object btnCerrar: TButton
+    Left = 64
+    Height = 38
+    Top = 256
+    Width = 113
+    Caption = 'Cerrar'
+    TabOrder = 3
+    OnClick = btnCerrarClick
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 104
+    Top = 304
+  end
+end
